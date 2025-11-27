@@ -1,17 +1,16 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Sprinklr
+  subtitle: Product Engineer Intern (AI Team)
+  from: May 2025
+  to: Jul 2025
+  description: >
+    Engineered a voice-supported real-time AI suggestion-feedback system for customer care, achieving <b>1.5s latency</b> and <b>3x cost reduction</b>.
+    Generated a dataset mapping 10k research papers and fine-tuned LLMs (0.6B, 1.7B) via RLHF/DPO, boosting recall by <b>41%</b> for multi-label hierarchical classification.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: IIT Delhi
+  subtitle: B.Tech, Mathematics and Computing
+  from: 2022
+  to: Present
+  description: >
+    <b>CS:</b> Data Structures & Algorithms, Operating Systems, Parallel Computing, Cryptography, and Computer Networks, and Quantum Computing <br>
+    <b>AI & ML:</b> Machine Learning, Deep Learning, Reinforcement Learning, Natural Language Processing (NLP), and Data Mining. <br>
+    <b>Mathematics:</b> Probability & Stochastic Processes, Linear Algebra, Optimization Methods, Discrete Mathematics, and Statistical Methods.
