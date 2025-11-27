@@ -1,1 +1,107 @@
+### Site Settings ###
+title               : Vatsal Sejpal
+description         : >-
+                      Final-year Mathematics & Computing undergrad at IIT Delhi.
+                      I work on the intersection of machine learning and systems:
+                      training pipelines, inference efficiency, and agentic AI workflows.
+baseurl             : ""            # TODO: Change to "" if hosting at <your-username>.github.io directly
+repository          : sejpalvatsal/sejpalvatsal.github.io   # TODO: Set to your actual GitHub repo, e.g. vatsalsejpal/vatsalsejpal.github.io
+remote_theme        : yousinix/portfolYOU
+open_new_tab        : false                    # You can flip this if you prefer external links in a new tab
 
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Vatsal Sejpal
+  image             : "/assets/img/profile.jpg"  # TODO: Replace with your GitHub avatar or any hosted image
+  behance           :                                                   # Likely not relevant – leave empty or remove
+  email             : sejpalvatsal152@gmail.com                                   # IITD / personal email, your call
+  facebook          :                                                   # Probably unnecessary – you can delete these unused fields
+  github            : sejpalvatsal                        # e.g. vatsalsejpal
+  gitlab            : 
+  instagram         : 
+  kaggle            : 
+  linkedin          : https://www.linkedin.com/in/vatsal-sejpal-211759243/                           # e.g. vatsalsejpal
+  medium            : 
+  stackoverflow     : 
+  twitter           :                                                   # Or "x" handle if you actually use it
+  youtube           :
+  spotify           :
+  soundcloud        :
+  twitch            :
+  vimeo             :
+  keybase           :
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname:                                           # Leave empty unless you actually set up Disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true only when you actually plug in tracking
+  google:
+    tracking_id:                                       # e.g. G-XXXXXXXXXX
+
+
+### Buy me a coffee ###
+buymeacoffee:
+  enabled: false
+  username: 
+  color: "#007bff"
+  message: "Thank you for visiting."
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable Disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
