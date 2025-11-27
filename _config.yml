@@ -1,13 +1,12 @@
 ### Site Settings ###
-title               : Vatsal Sejpal
-description         : >-
-                      Final-year Mathematics & Computing undergrad at IIT Delhi.
-                      I work on the intersection of machine learning and systems:
-                      training pipelines, inference efficiency, and agentic AI workflows.
-baseurl             : ""            # TODO: Change to "" if hosting at <your-username>.github.io directly
-repository          : sejpalvatsal/sejpalvatsal.github.io   # TODO: Set to your actual GitHub repo, e.g. vatsalsejpal/vatsalsejpal.github.io
-remote_theme        : yousinix/portfolYOU
-open_new_tab        : false                    # You can flip this if you prefer external links in a new tab
+title        : "Vatsal Sejpal"
+description  : >-
+  Final-year Mathematics & Computing @ IIT Delhi
+  ML Systems | Agents | Distributed Computing
+baseurl      : ""                                # User site: must stay empty
+repository   : "sejpalvatsal/sejpalvatsal.github.io"
+remote_theme : "yousinix/portfolYOU"
+open_new_tab : false                             # Set true if you want external links in new tabs
 
 
 ### Plugins ###
@@ -16,34 +15,24 @@ plugins:
 
 
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude:
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
+  - documentation/partials/**                   # Safe to keep; you can drop docs later
 
 
 ### Author Info ###
 author:
-  name              : Vatsal Sejpal
-  image             : "/assets/img/profile.jpg"  # TODO: Replace with your GitHub avatar or any hosted image
-  behance           :                                                   # Likely not relevant – leave empty or remove
-  email             : sejpalvatsal152@gmail.com                                   # IITD / personal email, your call
-  facebook          :                                                   # Probably unnecessary – you can delete these unused fields
-  github            : sejpalvatsal                        # e.g. vatsalsejpal
-  gitlab            : 
-  instagram         : 
-  kaggle            : 
-  linkedin          : https://www.linkedin.com/in/vatsal-sejpal-211759243/                           # e.g. vatsalsejpal
-  medium            : 
-  stackoverflow     : 
-  twitter           :                                                   # Or "x" handle if you actually use it
-  youtube           :
-  spotify           :
-  soundcloud        :
-  twitch            :
-  vimeo             :
-  keybase           :
+  name     : "Vatsal Sejpal"
+  image    : "/assets/img/profile.jpg"
+  email    : "sejpalvatsal152@gmail.com"
+  github   : "sejpalvatsal"
+  linkedin : "vatsal-sejpal-211759243"          # username/slug only, NOT full URL
+  # Remove or fill others only if you actually use them:
+  # twitter : ""
+  # kaggle  : ""
+  # etc.
 
 
 ### Posts ###
@@ -55,26 +44,26 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+  elements:                                     # For Documentation Only
+    output: true                                # For Documentation Only
 
 
 ### Disqus ###
 disqus:
-  shortname:                                           # Leave empty unless you actually set up Disqus
+  shortname:                                    # Leave empty unless you set it up
 
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true only when you actually plug in tracking
+  enabled: false
   google:
-    tracking_id:                                       # e.g. G-XXXXXXXXXX
+    tracking_id:                                # e.g. G-XXXXXXXXXX
 
 
 ### Buy me a coffee ###
 buymeacoffee:
   enabled: false
-  username: 
+  username:
   color: "#007bff"
   message: "Thank you for visiting."
   description: "Support me on Buy me a coffee!"
@@ -87,16 +76,16 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
+  - scope:                                     # For Documentation Only
+      path: ""                                 # For Documentation Only
+      type: "elements"                         # For Documentation Only
+    values:                                    # For Documentation Only
+      layout: "element"                        # For Documentation Only
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable Disqus comments
+      comments: false                          # Flip to true if you actually configure Disqus
 
 
 ### Exclude from processing ###
