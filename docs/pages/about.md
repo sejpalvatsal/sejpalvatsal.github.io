@@ -7,6 +7,8 @@ weight: 2
 
 # Vatsal Sejpal
 
+![Vatsal Sejpal]({{ site.baseurl }}/assets/img/profile.jpg)
+
 Final-year undergrad in **Mathematics & Computing** at **IIT Delhi**, focused on the intersection of machine learning and systems - how models run, scale, and behave under real constraints. I’m particularly interested in training pipelines, inference efficiency, agentic workflows, and the systems engineering required to make ML dependable in real environments.
 
 I’ve accepted a PPO from **Sprinklr** to join their AI team as a **Product Engineer (ML Engineer)** in 2026. I’m spending my final year deepening my grounding in distributed systems, RL fundamentals, and deployment tooling like Kubernetes to prepare for ML systems work at production scale.
@@ -18,8 +20,6 @@ I’ve accepted a PPO from **Sprinklr** to join their AI team as a **Product Eng
 - KVPY Scholar, **AIR 736** (awarded by IISc. Bangalore)  
 - **Lichess 2405 / Chess.com 2354** (peak), top 0.1% of active players  
 - Codeforces Expert
-
-{{ site.baseurl }}docs/assets/img/profile.jpg
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
