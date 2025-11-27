@@ -1,8 +1,8 @@
 ### Site Settings ###
 title        : "Vatsal Sejpal"
 description  : >-
-  Final-year Mathematics & Computing @ IIT Delhi
-  ML Systems | Agents | Distributed Computing
+  Mathematics & Computing @ IIT Delhi
+  ML Systems | Inference Optimization | Agents
 baseurl      : ""                                # User site: must stay empty
 repository   : "sejpalvatsal/sejpalvatsal.github.io"
 remote_theme : "yousinix/portfolYOU"
