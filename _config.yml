@@ -2,7 +2,7 @@
 title        : "Vatsal Sejpal"
 description  : >-
   Mathematics & Computing @ IIT Delhi<br>
-  ML Systems | Inference Optimization | AI Agents | Distributed Fundamentals
+  ML Systems | Inference Optimization |<br>AI Agents | Distributed Fundamentals
 baseurl      : ""                                # User site: must stay empty
 repository   : "sejpalvatsal/sejpalvatsal.github.io"
 remote_theme : "yousinix/portfolYOU"
