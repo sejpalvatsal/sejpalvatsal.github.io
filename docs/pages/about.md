@@ -2,13 +2,22 @@
 layout: page
 title: About
 permalink: /about/
-weight: 3
+weight: 2
 ---
 
-# **About Me**
+# Vatsal Sejpal
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Final-year undergrad in **Mathematics & Computing** at **IIT Delhi**, focused on the intersection of machine learning and systems - how models run, scale, and behave under real constraints. I’m particularly interested in training pipelines, inference efficiency, agentic workflows, and the systems engineering required to make ML dependable in real environments.
+
+I’ve accepted a PPO from **Sprinklr** to join their AI team as a **Product Engineer (ML Engineer)** in 2026. I’m spending my final year deepening my grounding in distributed systems, RL fundamentals, and deployment tooling like Kubernetes to prepare for ML systems work at production scale.
+
+### Competitive Benchmarks
+
+- JEE Advanced **AIR 308** (top 0.1% out of ~250k)  
+- JEE Main **AIR 532** (top 0.05% out of ~1.2M)  
+- KVPY Scholar, **AIR 736** (awarded by IISc. Bangalore)  
+- **Lichess 2405 / Chess.com 2354** (peak), top 0.1% of active players  
+- Codeforces Expert  
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
