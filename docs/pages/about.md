@@ -19,7 +19,7 @@ I’ve accepted a PPO from **Sprinklr** to join their AI team as a **Product Eng
 - **Lichess 2405 / Chess.com 2354** (peak), top 0.1% of active players  
 - Codeforces Expert
 
-{{ site.baseurl }}/assets/img/profile.jpg
+{{ site.baseurl }}docs/assets/img/profile.jpg
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
