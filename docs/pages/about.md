@@ -17,7 +17,9 @@ I’ve accepted a PPO from **Sprinklr** to join their AI team as a **Product Eng
 - JEE Main **AIR 532** (top 0.05% out of ~1.2M)  
 - KVPY Scholar, **AIR 736** (awarded by IISc. Bangalore)  
 - **Lichess 2405 / Chess.com 2354** (peak), top 0.1% of active players  
-- Codeforces Expert  
+- Codeforces Expert
+
+{{ site.baseurl }}/assets/img/vatsal.jpg
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
