@@ -1,13 +1,13 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Vatsal Sejpal
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+                      Final-year Mathematics & Computing undergrad at IIT Delhi.
+                      I work on the intersection of machine learning and systems:
+                      training pipelines, inference efficiency, and agentic AI workflows.
+baseurl             : ""            # TODO: Change to "" if hosting at <your-username>.github.io directly
+repository          : sejpalvatsal/sejpalvatsal.github.io   # TODO: Set to your actual GitHub repo, e.g. vatsalsejpal/vatsalsejpal.github.io
 remote_theme        : yousinix/portfolYOU
-open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : false                    # You can flip this if you prefer external links in a new tab
 
 
 ### Plugins ###
@@ -25,27 +25,25 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
+  name              : Vatsal Sejpal
+  image             : https://avatars.githubusercontent.com/u/00000000   # TODO: Replace with your GitHub avatar or any hosted image
+  behance           :                                                   # Likely not relevant – leave empty or remove
+  email             : sejpalvatsal152@gmail.com                                   # IITD / personal email, your call
+  facebook          :                                                   # Probably unnecessary – you can delete these unused fields
+  github            : sejpalvatsal                        # e.g. vatsalsejpal
+  gitlab            : 
+  instagram         : 
+  kaggle            : 
+  linkedin          : https://www.linkedin.com/in/vatsal-sejpal-211759243/                           # e.g. vatsalsejpal
+  medium            : 
+  stackoverflow     : 
+  twitter           :                                                   # Or "x" handle if you actually use it
+  youtube           :
+  spotify           :
+  soundcloud        :
+  twitch            :
+  vimeo             :
+  keybase           :
 
 
 ### Posts ###
@@ -63,23 +61,22 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+  shortname:                                           # Leave empty unless you actually set up Disqus
 
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: false                                        # Set true only when you actually plug in tracking
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id:                                       # e.g. G-XXXXXXXXXX
 
 
 ### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
 buymeacoffee:
   enabled: false
-  username: your_username
+  username: 
   color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  message: "Thank you for visiting."
   description: "Support me on Buy me a coffee!"
 
 
@@ -99,7 +96,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: false                                   # Set to true to enable Disqus comments
 
 
 ### Exclude from processing ###
