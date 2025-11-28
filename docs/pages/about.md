@@ -5,12 +5,12 @@ permalink: /about/
 weight: 2
 ---
 
-### About Me
+## About Me
 Hi I'm Vatsal, a final-year undergrad in <b>Mathematics & Computing</b> at <b>IIT Delhi</b>, focused on the intersection of machine learning and systems - how models run, scale, and behave under real constraints. I’m particularly interested in training pipelines, inference efficiency, agentic workflows, and the systems engineering required to make ML dependable in real environments.
 
 I’ve accepted a PPO from <b>Sprinklr</b> to join their AI team as a <b>Product Engineer (ML Engineer)</b> in 2026. I’m spending my final year deepening my grounding in distributed systems, RL fundamentals, and deployment tooling like Kubernetes to prepare for ML systems work at production scale.
 
-### Competitive Benchmarks
+#### Competitive Benchmarks
 
 - JEE Advanced <b>AIR 308</b> (top 0.1% out of ~250k)  
 - JEE Main <b>AIR 532</b> (top 0.05% out of ~1.2M)  
