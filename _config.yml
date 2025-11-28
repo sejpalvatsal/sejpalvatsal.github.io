@@ -19,10 +19,10 @@ nav_exclude:
   - /docs/pages/tags.html
   - /docs/pages/404.html
   - /docs/pages/index.md
-  - /documentation/partials/**
-  - /documentation/docs.md
-  - /documentation/elements.html
-  - /documentation/github.md
+  - /docs/documentation/partials/**
+  - /docs/documentation/docs.md
+  - /docs/documentation/elements.html
+  - /docs/documentation/github.md
 
 
 ### Author Info ###
