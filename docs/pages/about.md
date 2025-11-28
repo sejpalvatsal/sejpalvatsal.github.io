@@ -25,6 +25,7 @@ I’ve accepted a PPO from <b>Sprinklr</b> to join their AI team as a <b>Product
 
 ## Engineering Journey
 
+<br>
 <div class="row">
 {% include about/timeline.html %}
 </div>
