@@ -2,12 +2,14 @@
 
   <h2 class="mb-3">{{ include.title }}</h2>
 
-  <div class="d-flex flex-wrap">
-    {% for skill in include.source %}
-      <span class="badge badge-pill badge-{{ skill.color | default: "primary" }} mr-2 mb-2 px-3 py-2">
-        {{ skill.name }}
+  {% for skill in include.source %}
+    <div class="d-flex align-items-center py-1">
+      <span
+        class="mr-2"
+        style="width:6px; height:6px; border-radius:50%; background-color:#007bff; display:inline-block;">
       </span>
-    {% endfor %}
-  </div>
+      <span>{{ skill.name }}</span>
+    </div>
+  {% endfor %}
 
 </div>
