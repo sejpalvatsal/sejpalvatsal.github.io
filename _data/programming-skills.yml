@@ -1,15 +1,14 @@
 - name: Python
-  percentage: 90
-  color: danger
+  color: primary
   
 - name: C++
-  percentage: 90
-  color: danger
+  color: primary
 
 - name: C
-  percentage: 90
-  color: danger
+  color: primary
 
 - name: SQL
-  percentage: 90
-  color: danger
+  color: primary
+
+- name: Bash
+  color: primary
