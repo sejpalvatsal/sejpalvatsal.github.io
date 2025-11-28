@@ -3,10 +3,16 @@
   <h2 class="mb-3">{{ include.title }}</h2>
 
   {% for skill in include.source %}
-    <div class="d-flex align-items-center py-1">
+    <div class="d-flex align-items-center py-1 ml-3" style="font-size: 1.1rem; font-weight: 600;">
       <span
         class="mr-2"
-        style="width:6px; height:6px; border-radius:50%; background-color:#007bff; display:inline-block;">
+        style="
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: #007bff;
+          display: inline-block;
+        ">
       </span>
       <span>{{ skill.name }}</span>
     </div>
