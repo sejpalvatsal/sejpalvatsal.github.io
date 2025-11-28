@@ -4,7 +4,7 @@
   to: Jul 2025
   description: >
     Engineered a voice-supported real-time AI suggestion-feedback system for customer care, achieving <b>1.5s latency</b> and <b>3x cost reduction</b>.
-    Generated a dataset mapping 10k research papers and fine-tuned LLMs (0.6B, 1.7B) via RLHF/DPO, boosting recall by <b>41%</b> for multi-label hierarchical classification.
+    Generated a dataset mapping 10k research papers to the ACM-CCS taxonomy using Qwen-3 and fine-tuned LLMs (0.6B, 1.7B) via RLHF/DPO, boosting recall by <b>41%</b> for multi-label hierarchical classification.
 
 - title: Indian Institute of Technology Delhi
   subtitle: B.Tech, Mathematics and Computing
