@@ -1,1 +1,14 @@
+- name: Pytorch
+  color: primary
+  
+- name: Pandas
+  color: primary
 
+- name: Flask
+  color: primary
+
+- name: React
+  color: primary
+
+- name: Git
+  color: primary
