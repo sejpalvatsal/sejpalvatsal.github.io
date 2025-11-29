@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-# Resume
+## Resume
 
 <!-- PDF Embed -->
 <div class="text-center">
