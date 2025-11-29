@@ -4,8 +4,26 @@ title: Resume
 permalink: /resume/
 ---
 
-## Resume
+# Resume
 
-You can download my resume here:
+<!-- PDF Embed -->
+<div class="text-center">
+  <embed
+    src="{{ '/assets/resume.pdf' | relative_url }}"
+    type="application/pdf"
+    width="100%"
+    height="900px"
+    style="border: 1px solid #ddd; border-radius: 6px;"
+  />
+</div>
 
-[**Download PDF**](/assets/resume.pdf)
+<!-- Download Button -->
+<p class="text-center mt-4">
+  <a
+    href="{{ '/assets/resume.pdf' | relative_url }}"
+    class="btn btn-primary"
+    download
+  >
+    Download PDF
+  </a>
+</p>
