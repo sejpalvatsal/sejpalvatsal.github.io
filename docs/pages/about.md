@@ -10,7 +10,7 @@ Hi I'm Vatsal, a final-year undergrad in <b>Mathematics & Computing</b> at <b>II
 
 I’ve accepted a PPO from <b>Sprinklr</b> to join their AI team as a <b>Product Engineer (ML Engineer)</b> in 2026. I’m spending my final year deepening my grounding in distributed systems, RL fundamentals, and deployment tooling like Kubernetes to prepare for ML systems work at production scale.
 
-#### Competitive Benchmarks
+#### Achievements
 
 - JEE Advanced <b>AIR 308</b> (top 0.1% out of ~250k)  
 - JEE Main <b>AIR 532</b> (top 0.05% out of ~1.2M)  
